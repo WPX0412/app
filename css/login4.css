@@ -1,0 +1,263 @@
+/*头部开始*/
+@font-face {
+    font-family: 'iconfont';  /* project id 1030313 */
+    src: url('//at.alicdn.com/t/font_1030313_drblod36gi.eot');
+    src: url('//at.alicdn.com/t/font_1030313_drblod36gi.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_1030313_drblod36gi.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_1030313_drblod36gi.woff') format('woff'),
+    url('//at.alicdn.com/t/font_1030313_drblod36gi.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_1030313_drblod36gi.svg#iconfont') format('svg');
+}
+i{
+    font-family: iconfont;
+    font-style: normal;
+}
+.background{
+    width: 100%;
+    height: 100%;
+    background: url("../img/粉色系.jpg") no-repeat center center /100% 100%;
+    position: fixed;
+}
+.background .header{
+    width: 1.53rem;
+    height: 0.54rem;
+    background: #f593af;
+    border-radius: 0.3rem;
+    position: relative;
+    left: 5.5rem;
+    top: 0.5rem;
+}
+.background .header p{
+    font-size: 0.26rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.54rem;
+}
+/*头部结束*/
+/*中间开始*/
+.main{
+    width: 8rem;
+    height: 6rem;
+    margin: 2rem auto 0;
+}
+.main .loginBox{
+    width: 4rem;
+    height: 3.62rem;
+    background: #fff;
+    opacity: 0.6;
+    position: relative;
+    left: 1.8rem;
+    top: 1.75rem;
+    border-radius: 0.2rem;
+}
+.main .loginBox2{
+    width: 5rem;
+    height: 3.62rem;
+    background: #fff;
+    opacity: 0.6;
+    position: relative;
+    left: 1.3rem;
+    top: -2.1rem;
+    border-radius: 0.2rem;
+}
+.main .loginBox3{
+    width: 5.61rem;
+    height: 3.62rem;
+    background: #fff;
+    position: relative;
+    left: 1rem;
+    top: -6rem;
+    border-radius: 0.2rem;
+}
+.main .loginBox3 .number{
+    width: 3.27rem;
+    height: 0.5rem;
+    border: 0.02rem solid #f593af;
+    border-radius: 0.3rem;
+    position: relative;
+    top: 0.5rem;
+    left: 1.3rem;
+}
+.main .loginBox3 .number i{
+    font-size: 0.45rem;
+    color: #f593af;
+    float: left;
+    margin-left: -0.8rem;
+    margin-top: -0.01rem;
+}
+.main .loginBox3 .number p{
+    font-size: 0.24rem;
+    float: left;
+    margin-left: 0.4rem;
+    margin-top: 0.04rem;
+    color: #000;
+    font-weight: 600;
+}
+.main .loginBox3 .number img{
+    width: 0.3rem;
+    height: 0.3rem;
+    margin-left: 0.5rem;
+    margin-top: 0.08rem;
+}
+.main .loginBox3 .password{
+    width: 3.27rem;
+    height: 0.5rem;
+    border: 0.02rem solid #f593af;
+    border-radius: 0.3rem;
+    position: relative;
+    top: 0.7rem;
+    left: 1.3rem;
+}
+.main .loginBox3 .password i{
+    font-size: 0.5rem;
+    color: #f593af;
+    float: left;
+    margin-left: -0.8rem;
+    margin-top: -0.01rem;
+}
+.main .loginBox3 .password p{
+    font-size: 0.8rem;
+    float: left;
+    margin-left: 0.4rem;
+    margin-top: -0.6rem;
+    font-weight: 600;
+}
+.main .loginBox3 .password img{
+    width: 0.3rem;
+    height: 0.3rem;
+    margin-left: 0.9rem;
+    margin-top: 0.08rem;
+}
+.password .putpwd{
+    height: 0.5rem;
+    border-radius: 0.3rem;
+    border: 0.02rem solid #f593af;
+    margin-top: 0.2rem;
+    margin-left: -0.6rem;
+}
+input{
+    height: 0.5rem;
+    border-radius: 0.3rem;
+    border: 0.02rem solid #f593af;
+    margin-top: 0.2rem;
+}
+.main .loginBox3 .forget{
+    width: 3.02rem;
+    height: 0.2rem;
+    position: relative;
+    top: 1rem;
+    left: 1.3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.main .loginBox3 .incorrectAccount{
+    width: 1.71rem;
+    height: 0.2rem;
+    position: relative;
+    left: 1.5rem;
+    top: 0.3rem;
+    display: -webkit-box;
+}
+.main .loginBox3 .incorrectAccount i{
+    font-size: 0.22rem;
+    position: relative;
+    color: #ff0c3a;
+    top: -0.04rem;
+    right: 0.1rem;
+}
+.main .loginBox3 .incorrectAccount p{
+    color: #ff0c3a;
+}
+.main .loginBox3 .forget i{
+    font-size: 0.18rem;
+    color: #8c8c8c;
+}
+.main .loginBox3 .forget p{
+    position: relative;
+    left: -0.2rem;
+    top: -0.02rem;
+}
+.main .loginBox3 .button{
+    width: 2.57rem;
+    height: 0.54rem;
+    background-color: #f84f81;
+    opacity: 0.6;
+    border-radius: 0.3rem;
+    position: relative;
+    top: 1.5rem;
+    left: 1.5rem;
+}
+.main .loginBox3 .button p{
+    font-size: 0.28rem;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top: 0.06rem;
+}
+/*中间结束*/
+/*底部开始*/
+.footer{
+    height: 1.74rem;
+    position: relative;
+    top: 1.2rem;
+}
+.footer .third{
+    width: 2.2rem;
+    height: 0.3rem;
+    display: flex;
+    margin: 0 auto;
+}
+.footer .third .soild{
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 50%;
+    background: #f593af;
+    position: relative;
+    top: 0.18rem;
+    right: -0.45rem;
+}
+.footer .third p{
+    color: #fff;
+    font-size: 0.24rem;
+    padding: 0.1rem;
+    position: relative;
+    left: 0.45rem;
+    top: -0.06rem;
+    font-weight: 600;
+}
+.footer .pay{
+    width: 4rem;
+    height: 0.82rem;
+    margin: 0 auto;
+    position: relative;
+    top: 0.63rem;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .pay .white{
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    background: #fff;
+}
+.footer .pay .white1{
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    background: #fff;
+}
+.footer .pay .white img{
+    width: 0.5rem;
+    height: 0.5rem;
+    position: relative;
+    top: 0.15rem;
+    left: 0.15rem;
+}
+.footer .pay .white1 img{
+    width: 0.4rem;
+    height: 0.4rem;
+    position: relative;
+    top: 0.2rem;
+    left: 0.23rem;
+}
+/*底部结束*/

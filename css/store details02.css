@@ -1,0 +1,332 @@
+/*店铺名称开始*/
+@font-face {
+    font-family: 'iconfont';  /* project id 1030313 */
+    src: url('//at.alicdn.com/t/font_1030313_drblod36gi.eot');
+    src: url('//at.alicdn.com/t/font_1030313_drblod36gi.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_1030313_drblod36gi.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_1030313_drblod36gi.woff') format('woff'),
+    url('//at.alicdn.com/t/font_1030313_drblod36gi.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_1030313_drblod36gi.svg#iconfont') format('svg');
+}
+i{
+    font-family: iconfont;
+    font-style: normal;
+}
+.big{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    position: fixed;
+}
+.titleBox{
+    height: 1.36rem;
+    background: #FA9BBC;
+}
+#title{
+    width: 7.01rem;
+    height: 0.36rem;
+    margin: 0 auto;
+    position: relative;
+    top: 0.26rem;
+    display: flex;
+}
+#title>p{
+    color: #fff;
+    margin-left: 1.82rem;
+    margin-right: 1.8rem;
+    font-size: 0.29rem;
+}
+#title i{
+    font-size: 0.34rem;
+    color: #fff;
+}
+.waiyuan{
+    width: 0.34rem;
+    height: 0.34rem;
+    background: #fff;
+    border-radius: 50%;
+    margin-right: 0.3rem;
+}
+.waiyuan #suosou{
+    font-size: 0.3rem;
+    color: #FA9BBC;
+    line-height: 0.36rem;
+    margin-left: 0.03rem;
+}
+/*店铺名称结束*/
+/*店家介绍开始*/
+.introduction{
+    width: 7.02rem;
+    height: 1.4rem;
+    background-color: #fff;
+    border-radius: 0.1rem;
+    margin: 0 auto;
+    margin-top: -0.42rem;
+    box-shadow: 0.05rem 0.05rem 0.5rem #ccc;
+    padding: 0.23rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.introduction>img{
+    width: 0.85rem;
+    height: 0.97rem;
+    margin-right: 0.4rem;
+}
+.introductionTitle{
+    width: 5.53rem;
+    height: 0.25rem;
+    display: flex;
+    margin-left: 1rem;
+    margin-top: -0.97rem;
+}
+.introductionTitle>p{
+    font-size: 0.22rem;
+    color: #030303;
+    opacity: 0.6;
+    position: relative;
+}
+.introduction .introductionTitle>img{
+    width: 0.3rem;
+    height: 0.3rem;
+}
+.sale{
+    width: 3.53rem;
+    height: 0.3rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1rem;
+    margin-top: -0.68rem;
+    /*justify-content: space-between;*/
+}
+.double{
+    width: 3.8rem;
+    height: 0.19rem;
+    margin-left: 1rem;
+    margin-top: -0.44rem;
+}
+.announcement{
+    width: 0.6rem;
+    height: 0.18rem;
+    margin-left: 1rem;
+
+}
+.announcement>p{
+    color: palevioletred;
+    margin-top: -0.21rem;
+    margin-left: -4.8rem;
+}
+.festival{
+    width: 6rem;
+    height: 0.19rem;
+
+}
+.festival>p{
+    margin-left: 1.6rem;
+    margin-top: -0.4rem;
+}
+.festival>p>img{
+    width: 0.15rem;
+    height: 0.15rem;
+}
+/*店家介绍结束*/
+/*服务选择开始*/
+.order{
+    height: 1.41rem;
+}
+.service{
+    width: 4.47rem;
+    height: 0.5rem;
+    position: relative;
+    top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.shop{
+    width: 0.94rem;
+    height: 0.41rem;
+    background: #fa9bbc;
+    border-radius: 0.2rem;
+    margin-top: 0.05rem;
+}
+.order .service .shop .diandan{
+    background: #fa50b1;
+    border-radius: 0.2rem;
+}
+.shop>p{
+    font-size: 0.26rem;
+    text-align: center;
+    line-height: 0.41rem;
+    color: #fff;
+}
+/*服务选择结束*/
+/*全部开始*/
+.all{
+    height: 8.5rem;
+    background: #eee;
+    padding: 0.2rem;
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    width: 0.94rem;
+    height: 100%;
+    margin-right: 0.25rem;
+    color: #fa50b1;
+}
+.classification{
+    width: 0.94rem;
+    height: 0.41rem;
+    border-radius: 0.2rem;
+    margin-bottom: 0.2rem;
+    border: 0.03rem solid #fa50b1;
+}
+.all .menu .classification .quanbu{
+    color: #fff;
+    background:#fa50b1;
+    height: 0.39rem;
+    border-radius: 0.2rem;
+    margin-top: -0.02rem;
+}
+.classification>p{
+    font-size: 0.26rem;
+    text-align: center;
+    line-height: 0.34rem;
+    color: #fa50b1
+}
+.dishesBox{
+    width: 5.85rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.dishes{
+    width: 5.85rem;
+    height: 1.72rem;
+    background: #fff;
+    border-radius: 0.1rem;
+    padding: 0.17rem;
+    margin-bottom: 0.35rem;
+    position: relative;
+}
+.dishes>img{
+    width: 1.01rem;
+    height: 1.4rem;
+    float: left;
+    margin-right: 0.2rem;
+}
+.dishes>p{
+    font-size: 0.16rem;
+}
+.all .dishes .liaoli{
+    font-size: 0.2rem;
+    font-weight: 600;
+}
+.all .dishes .quan{
+    margin-top: 0.08rem;
+    margin-bottom: 0.06rem;
+}
+.all .dishes .menshi{
+    position: relative;
+    left: 0.5rem;
+    top: -0.24rem;
+    color: #f6be28;
+}
+.all .dishes .xianjia{
+    font-size: 0.2rem;
+    color: #fa50b1;
+}
+.all .dishes .yishou{
+    margin-top: -0.25rem;
+    margin-bottom: 0.1rem;
+}
+.all .dishes .jinxian{
+    color: #f6be28;
+    margin-top: -0.05rem;
+}
+.all .dishes .jiahao{
+    width: 0.5rem;
+    height: 0.5rem;
+    position: relative;
+    left: 5rem;
+    top: -1rem;
+}
+.all .dishes .jiahao2{
+    width: 0.5rem;
+    height: 0.5rem;
+    position: relative;
+    left: 4.3rem;
+    top: -1rem;
+}
+.all .dishes .fenshu{
+    position: absolute;
+    left: 4.8rem;
+    top: 0.7rem;
+    font-size: 0.25rem;
+    color: #fa50b1;
+}
+.all .dishes .jianhao{
+    width: 0.45rem;
+    height: 0.45rem;
+    position: relative;
+    left: 4rem;
+    top: -1rem;
+}
+/*全部结束*/
+/*加入购物车开始*/
+.shopCar{
+    height: 0.8rem;
+    margin-left: 0.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.shopCar img{
+    width: 0.6rem;
+    height: 0.6rem;
+    margin-top: 0.3rem;
+    margin-left: 0.2rem;
+    color: #fa50b1;
+}
+.shopCar .count{
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 50%;
+    background: #f6be28;
+    margin-left: -0.2rem;
+    margin-top: 0.2rem;
+}
+.shopCar .count p{
+    color: #fff;
+    margin-top: -0.01rem;
+    margin-left: 0.15rem;
+}
+.shopCar p{
+    font-size: 0.24rem;
+    font-weight: 600;
+    margin-left: 0.2rem;
+    margin-top: 0.3rem;
+}
+.shopCar .qisong{
+    font-size: 0.2rem;
+    left: -1.6rem;
+    position: relative;
+    bottom: -0.3rem;
+    font-weight:100;
+}
+.settlement{
+    width: 1rem;
+    height: 0.5rem;
+    background: #fa50b1;
+    margin-top: 0.35rem;
+    margin-left: 0.7rem;
+    border-radius: 0.3rem;
+    overflow: hidden;
+}
+.shopCar .settlement p{
+    color: #fff;
+    margin-left: 0.15rem;
+    margin-top: 0.1rem;
+}
+/*加入购物车结束*/
+

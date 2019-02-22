@@ -1,0 +1,491 @@
+/*头部开始*/
+@font-face {
+    font-family: 'iconfont';  /* project id 1030313 */
+    src: url('//at.alicdn.com/t/font_1030313_drblod36gi.eot');
+    src: url('//at.alicdn.com/t/font_1030313_drblod36gi.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_1030313_drblod36gi.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_1030313_drblod36gi.woff') format('woff'),
+    url('//at.alicdn.com/t/font_1030313_drblod36gi.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_1030313_drblod36gi.svg#iconfont') format('svg');
+}
+i{
+    font-family: iconfont;
+    font-style: normal;
+}
+.container{
+    width: 7.02rem;
+    height: 100%;
+    min-height: 1px;
+    margin: 0 auto;
+}
+#header{
+    width: 100%;
+    height: 0.91rem;
+    background: pink;
+}
+.topBar{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.address{
+    width: 0.7rem;
+    height: 0.3rem;
+    margin-left: 0.58rem;
+}
+.address>p{
+    font-size: 0.2rem;
+    color: #fff;
+    line-height: 0.3rem;
+}
+.searchBox{
+    width: 5rem;
+    height: 0.42rem;
+    background: #ffffff;
+    border-radius: 0.21rem;
+    justify-content: flex-start;
+}
+.scanBox{
+    width:0.42rem;
+    height: 0.42rem;
+    background: #fff;
+    border-radius: 50%;
+    /*display: flex;*/
+    /*text-align: center;*/
+    position: relative;
+    left: 0.33rem;
+}
+#sao{
+    line-height: 0.42rem;
+    position: absolute;
+    left: -0.24rem;
+    font-size:0.25rem;
+}
+.search{
+    width: 0.29rem;
+    height: 0.29rem;
+    float: left;
+    margin-left: 0.2rem;
+    margin-top: 0.07rem;
+    background: #fff;
+    font-family: 'iconfont';
+    color: rgba(0,0,0,0.6);
+}
+.input{
+    width: 3.8rem;
+    height: 0.25rem;
+    float: left;
+    border: none;
+    margin-top: 0.09rem;
+}
+.camera{
+    width: 0.33rem;
+    height: 0.25rem;
+    margin-top: 0.07rem;
+    background: #757575;
+    margin-left: 0.14rem;
+    font-family: 'iconfont';
+    color: rgba(0,0,0,0.6);
+}
+#search{
+    float: left;
+    margin-left: 0.17rem;
+    margin-right: 0.14rem;
+    margin-top: 0.03rem;
+    font-size: 0.35rem;
+}
+#camera{
+    float: left;
+    margin-top: 0.03rem;
+    font-size: 0.35rem;
+}
+/*头部结束*/
+/*轮播图开始*/
+.carousel{
+    width: 7.5rem;
+    height: 3.48rem;
+    background-color: #87d3f2;
+    border: solid 0.24rem #ffffff;
+    position: relative;
+    margin: 0 auto;
+}
+.imgBox{
+    width: 7.02rem;
+    height: 3rem;
+}
+
+.imgBox>li>img{
+    width: 7.02rem;
+    height: 3rem;
+    position: absolute;
+}
+.imgBox li.active{
+    z-index: 1;
+}
+.pointBox{
+    width: 0.9rem;
+    height: 0.05rem;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0.32rem;
+    left: 2.7rem;
+}
+.pointBox>li{
+    width: 0.12rem;
+    height: 0.05rem;
+    border-radius: 0.02rem;
+    background: #fb79a5;
+}
+.pointBox>li.active{
+    background:#f288bf;
+}
+/*轮播图结束*/
+/*分类开始*/
+.classification{
+    width: 7.02rem;
+    height: 4.46rem;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.classification #classificationBox{
+    width:1.3rem;
+    height: 2.23rem;
+}
+.classification #classificationBox>img{
+    width: 1.1rem;
+    height: 1.1rem;
+    margin-top: 0.38rem;
+}
+.classification #classificationBox>p{
+    text-align: center;
+    margin-top: 0.15rem;
+    margin-right: 0.1rem;
+    font-size: 0.22rem;
+}
+/*分类结束*/
+/*抢购开始*/
+.time{
+    width: 7.02rem;
+    height: 1.95rem;
+    margin: 0 auto;
+    margin-top: 0.1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.time #time-top{
+    width: 2.74rem;
+    height: 0.29rem;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 0.22rem;
+}
+.time-top-left{
+    width: 0.08rem;
+    height: 0.08rem;
+    background: #0eb1f3;
+    border-radius: 50%;
+    float: left;
+    margin-top: 0.15rem;
+    margin-right: 0.08rem;
+    margin-left: 0rem;
+}
+.time-midden{
+    width: 2rem;
+    height: 0.29rem;
+    background: #fff;
+    margin: 0 auto;
+    display: flex;
+    margin-right: 0.1rem;
+}
+#time-top .time-midden >p{
+    font-size: 0.26rem;
+}
+#clock{
+    color: #f54782;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    font-size: 0.35rem;
+}
+#endBox{
+    width: 4.79rem;
+    height: 0.21rem;
+    /*display: flex;*/
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    margin-top: 0.2rem;
+    display: flex;
+}
+#endBox>p{
+    font-size: 0.21rem;
+    color: #000;
+    margin-right: 1.3rem;
+    line-height: 0.21rem;
+}
+#endBox>p:last-child{
+    margin-right: 0;
+    line-height: 0.21rem;
+}
+.time-end{
+    width: 2.82rem;
+    height: 0.41rem;
+    margin: 0 auto;
+    margin-top: -1.5rem;
+    display: flex;
+}
+#small{
+    width: 0.34rem;
+    height: 0.41rem;
+    background: #ff97b4;
+    margin-right: 0.1rem;
+}
+.time-end>p{
+    margin-right: 0.11rem;
+}
+#small>p{
+    text-align: center;
+}
+/*抢购结束*/
+/*食物分类开始*/
+.seaFood{
+    width: 7.02rem;
+    height: 1.47rem;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 0.6rem;
+}
+#seaFood1{
+    width: 3.44rem;
+    height: 1.47rem;
+    border-radius: 0.1rem;
+    position: relative;
+    margin-right: 0.2rem;
+    background-image: linear-gradient(to bottom,#3cefdc,#27cff3);
+}
+#seaFood1>p{
+    font-size: 0.24rem;
+    letter-spacing: 0.062rem;
+    color: #f9fafb;
+    margin-top: 0.35rem;
+    margin-left: 0.23rem;
+}
+.xinBox1{
+    width: 1.18rem;
+    height: 0.18rem;
+    margin-left: 0.23rem;
+    margin-top: 0.1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.small1{
+    width: 0.1rem;
+    height: 0.1rem;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    line-height: 0.18rem;
+    margin-top: 0.05rem;
+}
+.xinBox1>p{
+    font-size: 0.18rem;
+    margin-top: 0;
+    line-height: 0.18rem;
+    color: #f9fafb;
+}
+#seaFood1>img{
+    width: 1.3rem;
+    height: 1.3rem;
+   /* margin-top: 0.3rem;
+    margin-left: 0.5rem;*/
+    position: relative;
+    right: -1.8rem;
+    top: -1.2rem;
+}
+.more1{
+    width: 1.09rem;
+    height: 0.27rem;
+    background: #ec6941;
+    margin-top: 0.1rem;
+    border-radius: 0.3rem;
+    margin-left: 0.23rem;
+}
+.more1 p{
+    font-size: 0.18rem;
+    margin-top: 0;
+    line-height: 0.18rem;
+    color: #f9fafb;
+    text-align: center;
+    line-height: 0.27rem;
+}
+/*.seaFood:last-child{
+    background-image: linear-gradient(to bottom,#dde6b9,#95efbd);
+}*/
+/*食物分类结束*/
+/*每日推荐开始*/
+.day{
+    width: 7.5rem;
+    height: 10.5rem;
+    background: #F1F0F0;
+    margin: 0 auto;
+    margin-top: 0.6rem;
+}
+#titleBox{
+    width: 4.5rem;
+    height: 0.86rem;
+}
+#titleBox p{
+    font-family: PingFang-SC-Heavy;
+    font-size: 0.3rem;
+    letter-spacing: 0.174rem;
+    color: #f073ba;
+    font-weight: 600;
+    margin-top: 0.1rem;
+    margin-left: 0.23rem;
+}
+#titleBox p:last-child{
+    letter-spacing: 0.015rem;
+    font-weight: 300;
+}
+.kind1{
+    width: 7.02rem;
+    height: 1.9rem;
+    background: #fff;
+    margin-top: 0.2rem;
+    border-radius: 0.1rem;
+    margin-left: 0.23rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.2rem;
+}
+.kind1 img{
+    width: 1.07rem;
+    height: 1.52rem;
+}
+.one{
+    width: 5.33rem;
+    height: 0.27rem;
+}
+.kind1 p{
+    font-size: 0.26rem;
+    letter-spacing: 0.05rem;
+    font-weight: 500;
+    margin-left: 0.15rem;
+    margin-right: 2rem;
+    display: inline-block;
+
+}
+.one img{
+    width: 0.25rem;
+    height: 0.24rem;
+    margin-left: 0;
+}
+.price{
+    width: 4.11rem;
+    height: 1.12rem;
+    position: relative;
+    left: 1.3rem;
+    top: -1.1rem;
+}
+.price p{
+    font-size: 0.22rem;
+    letter-spacing: 0.012rem;
+    margin: 0;
+    color: #060606;
+    opacity: 0.6;
+    margin-bottom: 0.1rem;
+}
+.price p:nth-child(2)
+{
+    color: #f78ac9;
+    margin-right: 0.1rem;
+}
+.price p:nth-child(3)
+{
+    font-size: 0.2rem;
+    color: #060606;
+    opacity: 0.6;
+    margin-right: 2rem;
+}
+.peisong{
+    display: flex;
+    font-size: 0.2rem;
+    color: #060606;
+    opacity: 0.6;
+}
+.price .peisong {
+    justify-content: space-between;
+}
+.peisong i{
+    font-size: 0.2rem;
+}
+.carBox{
+    width: 0.6rem;
+    height: 0.6rem;
+    background: #FA50B1;
+    border-radius: 50%;
+    position: relative;
+    left: 1.8rem;
+    top: -1rem;
+}
+#car{
+    width: 0.33rem;
+    height: 0.31rem;
+    color: #fff;
+    line-height: 0.6rem;
+    margin-left: 0.09rem;
+    position: absolute;
+    /*left: 0.03rem;*/
+    font-size: 0.35rem;
+    top: 0.04rem;
+}
+/*每日推荐结束*/
+/*底部开始*/
+.bottom{
+    position: fixed;
+    bottom: 0rem;
+    left: 0rem;
+    height: 1.1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.35rem;
+    background: #fff;
+}
+.bottom li{
+    /*width: 0.8rem;*/
+    height: 0.48rem;
+    text-align: center;
+    margin-top: 0.2rem;
+    font-size: 0.37rem;
+}
+.bottom li a{
+    color: #f976c1;
+}
+.bottom li .geren{
+    color: #030303;
+}
+.bottom p{
+    font-size: 0.2rem;
+    text-align: center;
+}
+.bottom i{
+    font-size: 0.4rem;
+}
+.bottom li:first-child{
+    color: #f976c1;
+}
+#shou{
+    color: #f976c1;
+}
+/*底部结束*/
+
+
+
+
+
+
+

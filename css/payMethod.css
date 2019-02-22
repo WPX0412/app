@@ -1,0 +1,412 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 1030313 */
+    src: url('//at.alicdn.com/t/font_1030313_drblod36gi.eot');
+    src: url('//at.alicdn.com/t/font_1030313_drblod36gi.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_1030313_drblod36gi.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_1030313_drblod36gi.woff') format('woff'),
+    url('//at.alicdn.com/t/font_1030313_drblod36gi.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_1030313_drblod36gi.svg#iconfont') format('svg');
+}
+i{
+    font-family: iconfont;
+    font-style: normal;
+}
+
+.background{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+.payBox{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.payBox .payBox-bg {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #212121;
+    opacity: 0.6;
+    z-index: 1;
+}
+
+.payBox .pay{
+    height: 7.29rem;
+    background: #fff;
+    position: relative;
+    top: 6.05rem;
+    z-index: 2;
+}
+.payBox .pay .payTitle{
+    width: 6.98rem;
+    height: 1.13rem;
+    margin: 0 auto;
+    padding: 0.4rem;
+}
+.payBox .pay .payTitle img{
+    width: 0.31rem;
+    height: 0.31rem;
+}
+.payBox .pay .payTitle p{
+    font-size: 0.3rem;
+    color: #fa50b1;
+    text-align: center;
+    font-weight: 600;
+    margin-top: -0.4rem;
+}
+.payBox .pay .amount{
+    width: 3rem;
+    height: 0.38rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.1rem;
+}
+.payBox .pay .amount p{
+    font-size: 0.26rem;
+}
+.payBox .pay .one{
+    width: 6.96rem;
+    height: 0.6rem;
+    margin: 0 auto;
+    margin-top: 0.59rem;
+    border-top: 0.01rem solid #ccc;
+    display: flex;
+}
+.payBox .pay .one img{
+    width: 0.28rem;
+    height: 0.28rem;
+    margin-top: 0.15rem;
+    margin-left: 2.5rem;
+}
+.payBox .pay .one p{
+    font-size: 0.24rem;
+    font-weight: 400;
+    margin-top: 0.15rem;
+    margin-left: 0.2rem;
+}
+.payBox .pay .two{
+    width: 6.96rem;
+    height: 0.6rem;
+    margin: 0 auto;
+    border-top: 0.01rem solid #ccc;
+    display: flex;
+}
+.payBox .pay .two img{
+    width: 0.28rem;
+    height: 0.28rem;
+    margin-top: 0.15rem;
+    margin-left: 2.5rem;
+}
+.payBox .pay .two p{
+    font-size: 0.24rem;
+    font-weight: 400;
+    margin-top: 0.15rem;
+    margin-left: 0.2rem;
+}
+.payBox .pay .three{
+    width: 6.96rem;
+    height: 0.6rem;
+    margin: 0 auto;
+    border-top: 0.01rem solid #ccc;
+    display: flex;
+}
+.payBox .pay .three img{
+    width: 0.28rem;
+    height: 0.28rem;
+    margin-top: 0.15rem;
+    margin-left: 2.5rem;
+}
+.payBox .pay .three p{
+    font-size: 0.24rem;
+    font-weight: 400;
+    margin-top: 0.15rem;
+    margin-left: 0.2rem;
+}
+.payBox .pay .four{
+    width: 6.96rem;
+    height: 0.6rem;
+    margin: 0 auto;
+    border-top: 0.01rem solid #ccc;
+    border-bottom: 0.01rem solid #ccc;
+    display: flex;
+}
+.payBox .pay .four img{
+    width: 0.28rem;
+    height: 0.28rem;
+    margin-top: 0.15rem;
+    margin-left: 2.5rem;
+}
+.payBox .pay .four p{
+    font-size: 0.24rem;
+    font-weight: 400;
+    margin-top: 0.15rem;
+    margin-left: 0.2rem;
+}
+.background .header{
+    height: 2.22rem;
+    background: #f5568e;
+    padding: 0.24rem;
+}
+.background .header .top{
+    height: 0.38rem;
+    display: flex;
+    justify-content: space-between;
+}
+.background .header .top i{
+    color: #fff;
+    margin-top: 0.1rem;
+}
+.background .header .top p{
+    color: #fff;
+    font-size: 0.38rem;
+    text-align: center;
+}
+.background .header .bottom{
+    height: 1rem;
+    margin-top: 0.6rem;
+}
+.background .header .bottom .school{
+    color: #fff;
+    font-size: 0.18rem;
+    margin-top: 0.2rem;
+}
+.background .header .bottom p{
+    color: #fff;
+    font-size: 0.22rem;
+    margin-top: 0.03rem;
+}
+.background .main{
+    width: 100%;
+    /*height: 10.72rem;*/
+    background: #EEEEEE;
+    padding: 0.24rem;
+    float: left;
+}
+.background .main p{
+    font-size: 0.22rem;
+    color: #f5568e;
+}
+.background .main i{
+    color: #f5568e;
+    margin-right: 0.1rem;
+    float: left;
+}
+.background .main .timeBox{
+    width: 6.97rem;
+    height: 1.31rem;
+    background: #fff;
+    border-radius: 0.1rem;
+    margin-top: 0.24rem;
+    padding: 0.24rem;
+}
+.background .main .timeBox .yuji{
+    float: left;
+}
+.background .main .timeBox .shangwu{
+    float: right;
+}
+.background .main .timeBox .icon-iconfonticonfonti2{
+    float: right;
+    font-size: 0.22rem;margin-top: 0.05rem;
+}
+.background .main .timeBox .box{
+    border-bottom: 0.05rem dotted #eee;
+    margin-top: 0.5rem;
+    margin-bottom: 0.1rem;
+}
+.background .main .queren{
+    text-align: center;
+    font-size: 0.28rem;
+    letter-spacing: 0.459rem;
+    margin-top: 0.5rem;
+}
+.background .main .english{
+    text-align: center;
+    font-size: 0.28rem;
+    letter-spacing: 0.028rem;
+}
+.background .main .kindBox{
+    width: 6.98rem;
+    height: 1.13rem;
+    background: #fff;
+    border-radius: 0.1rem;
+    margin-top: 0.5rem;
+    padding: 0.2rem;
+    float: left;
+}
+.background .main .kindBox img{
+    width: 0.63rem;
+    height: 0.77rem;
+    float: left;
+}
+.background .main .kindBox .jianhao{
+    width: 0.5rem;
+    height: 0.5rem;
+    position: relative;
+    left: 4.5rem;
+    top: -0.6rem;
+}
+.background .main .kindBox .jiahao{
+    width: 0.6rem;
+    height: 0.6rem;
+    position: relative;
+    left: 4.8rem;
+    top: -1.05rem;
+}
+.background .main .kindBox .two{
+    position: relative;
+    top: -0.55rem;
+    font-size: 0.3rem;
+    text-align: right;
+    padding-right: 0.7rem;
+}
+.background .main .kindBox .neimeng{
+    font-size: 0.26rem;
+    color: #000;
+    position: relative;
+    left: 0.3rem;
+}
+.background .main .kindBox .xianjia{
+    font-size: 0.26rem;
+    position: relative;
+    left: 0.3rem;
+    top: 0.15rem;
+}
+.background .main .kindBox .box1{
+    width: 1.5rem;
+    border-bottom: 0.05rem dotted #eee;
+    position: relative;
+    left: 0.9rem;
+    top: 0.1rem;
+}
+.background .main .remarkBox{
+    width: 6.98rem;
+    height: 0.89rem;
+    background: #fff;
+    border-radius: 0.1rem;
+    position: relative;
+    top: 3.8rem;
+    bottom: 0.2rem;
+}
+.background .main .remarkBox .heji{
+    position: absolute;
+    top: 0.25rem;
+    left: 0.4rem;
+    color: #000;
+    font-size: 0.26rem;
+}
+.background .main .remarkBox .price{
+    position: absolute;
+    font-size: 0.32rem;
+    font-weight: 600;
+    float: right;
+    right: 0.5rem;
+    top: 0.3rem;
+}
+.background .main .remarkBox3 .green{
+    color: limegreen;
+    position: absolute;
+    top: 0.3rem;
+    left: 4.8rem;
+}
+.background .main .remarkBox2 i{
+    color: #000;
+    position: absolute;
+    top: 0.3rem;
+    left: 6rem;
+}
+.background .main .remarkBox2{
+    width: 6.98rem;
+    height: 0.89rem;
+    background: #fff;
+    border-radius: 0.1rem;
+    position: relative;
+    top: 4rem;
+    bottom: 0.2rem;
+}
+.background .main .remarkBox2 .heji2{
+    position: absolute;
+    top: 0.3rem;
+    left: 0.4rem;
+    color: #000;
+    font-size: 0.26rem;
+}
+.background .main .remarkBox3{
+    width: 6.98rem;
+    height: 0.89rem;
+    background: #fff;
+    border-radius: 0.1rem;
+    position: relative;
+    top: 4.2rem;
+    bottom: 0.2rem;
+}
+.background .main .remarkBox3 .heji3{
+    position: absolute;
+    top: 0.25rem;
+    left: 0.4rem;
+    color: #000;
+    font-size: 0.26rem;
+}
+.background .pay{
+    width: 2.25rem;
+    height: 0.44rem;
+    background: #FA50B1;
+    border-radius: 0.3rem;
+    position: absolute;
+    top: 12.5rem;
+    left: 2.5rem;
+}
+.background .pay p{
+    font-size: 0.26rem;
+    color: #fff;
+    text-align: center;
+    margin-top: 0.05rem;
+}
+.background .pay .dot1{
+    width: 0.06rem;
+    height: 0.06rem;
+    background: #fff;
+    opacity: 0.6;
+    border-radius: 50%;
+    position: relative;
+    left: 0.6rem;
+    top: 0.2rem;
+    float: left;
+}
+.background .pay .dot2{
+    width: 0.06rem;
+    height: 0.06rem;
+    background: #fff;
+    border-radius: 50%;
+    position: relative;
+    left: 0.4rem;
+    top: 0.2rem;
+    float: left;
+}
+.background .pay .dot3{
+    width: 0.06rem;
+    height: 0.06rem;
+    background: #fff;
+    border-radius: 50%;
+    position: relative;
+    left: 1.8rem;
+    top: -0.2rem;
+    float: left;
+}
+.background .pay .dot4{
+    width: 0.06rem;
+    height: 0.06rem;
+    background: #fff;
+    opacity: 0.6;
+    border-radius: 50%;
+    position: relative;
+    left: 1.6rem;
+    top: -0.2rem;
+    float: left;
+}

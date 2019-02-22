@@ -1,0 +1,407 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 1030313 */
+    src: url('//at.alicdn.com/t/font_1030313_drblod36gi.eot');
+    src: url('//at.alicdn.com/t/font_1030313_drblod36gi.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_1030313_drblod36gi.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_1030313_drblod36gi.woff') format('woff'),
+    url('//at.alicdn.com/t/font_1030313_drblod36gi.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_1030313_drblod36gi.svg#iconfont') format('svg');
+}
+i{
+    font-family: iconfont;
+    font-style: normal;
+}
+
+.background{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.background .header{
+    height: 3.83rem;
+}
+.background .header .title{
+    height: 1.35rem;
+    background: #FA9BBC;
+    display: flex;
+}
+.background .header .title .baidi{
+    width: 0.5rem;
+    height: 0.5rem;
+    background: #fff;
+    border-radius: 50%;
+    position: relative;
+    top: 0.5rem;
+    left: 0.24rem;
+    padding: 0.04rem;
+}
+.background .header .title .baidi1{
+    width: 0.5rem;
+    height: 0.5rem;
+    background: #fff;
+    border-radius: 50%;
+    position: relative;
+    top: 0.5rem;
+    left: 2.4rem;
+    padding: 0.04rem;
+}
+.background .header .title .baidi i{
+    position: relative;
+    left: 0.03rem;
+    top: 0.02rem;
+    color: #FA9BBC;
+}
+.background .header .title .baidi1 i{
+    position: relative;
+    left: 0.03rem;
+    top: 0.02rem;
+    color: #FA9BBC;
+}
+.background .header .title p{
+    font-size: 0.38rem;
+    text-align: center;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 0.45rem;
+    margin-left: 2.3rem;
+}
+.background .header .walletBox{
+    height: 2.48rem;
+    background: #FFFFFF;
+    position: relative;
+}
+.background .header .walletBox .wallet{
+    width: 5.05rem;
+    height: 0.65rem;
+    margin: 0 auto;
+    margin-top: 0.2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.background .header .walletBox .wallet .walletText{
+    width: 0.7rem;
+    height: 100%;
+}
+.background .header .walletBox .wallet .walletText p{
+    font-size: 0.22rem;
+    text-align: center;
+}
+.background .header .walletBox .wallet .walletText .money{
+    color: #FA9BBC;
+}
+.background .header .walletBox .wallet .walletText .package{
+    color: #000;
+    opacity: 0.5;
+}
+.background .header .walletBox .wallet span{
+    height: 1rem;
+    margin-top: 0.2rem;
+    color: #000;
+    opacity: 0.5;
+}
+.background .header .walletBox .information{
+    width: 7.02rem;
+    height: 1.4rem;
+    background: #fff;
+    border-radius: 0.1rem;
+    /*position: absolute;*/
+    /*top: -0.2rem;*/
+    /*left: 0.24rem;*/
+    margin: 0 auto;
+    box-shadow: 0.05rem 0.05rem 0.3rem #757575;
+}
+.background .header .walletBox .information img{
+    width: 1.2rem;
+    position: absolute;
+    top: 0.1rem;
+    left: 0.8rem;
+}
+.background .header .walletBox .information i{
+    position: absolute;
+    top: 0.9rem;
+    left: 0.9rem;
+    color: #FF6671;
+}
+.background .header .walletBox .information .icon-tel{
+    position: absolute;
+    top: 0.85rem;
+    left: 2rem;
+    color: #000;
+    opacity:0.5;
+}
+.background .header .walletBox .information p{
+    position: absolute;
+    top: 0.2rem;
+    left: 2rem;
+    color: #000;
+    opacity: 0.5;
+}
+.background .header .walletBox .information .signature{
+    position: absolute;
+    top: 0.5rem;
+    left: 2rem;
+    color: #000;
+    opacity: 0.5;
+}
+.background .header .walletBox .information .call{
+    position: absolute;
+    top: 0.9rem;
+    left: 2.4rem;
+    color: #000;
+    opacity: 0.5;
+}
+.background .main{
+    height: 8.4rem;
+    background: #eee;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-between;*/
+}
+.background .main .kindBox{
+    width: 7.02rem;
+    height: 0.88rem;
+    background: #fff;
+    border-radius: 0.1rem;
+    position: relative;
+    top: 0.5rem;
+    left: 0.24rem;
+}
+.background .main .kindBox .num{
+    width: 0.67rem;
+    height: 0.34rem;
+    background: #f84f81;
+    border-radius: 0.2rem;
+    position: absolute;
+    left: 6rem;
+    top: 0.3rem;
+    color: #fff;
+    text-align: center;
+}
+.background .main .kindBox .hongdi{
+    width: 0.66rem;
+    height: 0.66rem;
+    background: #FC7DA3;
+    border-radius: 50%;
+    position: absolute;
+    top: 0.12rem;
+    left: 0.14rem;
+}
+.background .main .kindBox .hongdi i{
+    color: #fff;
+    position: absolute;
+    left: 0.15rem;
+    top: 0.13rem;
+}
+.background .main .kindBox p{
+    color: #B6B6B6;
+    position: absolute;
+    left: 1rem;
+    top: 0.3rem;
+    font-size: 0.24rem;
+}
+.background .main .kindBox1{
+    width: 7.02rem;
+    height: 0.88rem;
+    background: #fff;
+    border-radius: 0.1rem;
+    position: relative;
+    top: 0.8rem;
+    left: 0.24rem;
+}
+.background .main .kindBox1 .num{
+    width: 0.67rem;
+    height: 0.34rem;
+    background: #f84f81;
+    border-radius: 0.2rem;
+    position: absolute;
+    left: 6rem;
+    top: 0.3rem;
+    color: #fff;
+    text-align: center;
+}
+.background .main .kindBox1 .hongdi1{
+    width: 0.66rem;
+    height: 0.66rem;
+    background: #FC7DA3;
+    border-radius: 50%;
+    position: absolute;
+    top: 0.12rem;
+    left: 0.14rem;
+}
+.background .main .kindBox1 .hongdi1 i{
+    color: #fff;
+    position: absolute;
+    left: 0.15rem;
+    top: 0.13rem;
+}
+.background .main .kindBox1 p{
+    color: #B6B6B6;
+    position: absolute;
+    left: 1rem;
+    top: 0.3rem;
+    font-size: 0.24rem;
+}
+.background .main .kindBox2{
+    width: 7.02rem;
+    height: 0.88rem;
+    background: #fff;
+    border-radius: 0.1rem;
+    position: relative;
+    top: 1.1rem;
+    left: 0.24rem;
+}
+.background .main .kindBox2 .num{
+    width: 0.67rem;
+    height: 0.34rem;
+    background: #f84f81;
+    border-radius: 0.2rem;
+    position: absolute;
+    left: 6rem;
+    top: 0.3rem;
+    color: #fff;
+    text-align: center;
+}
+.background .main .kindBox2 .hongdi2{
+    width: 0.66rem;
+    height: 0.66rem;
+    background: #FC7DA3;
+    border-radius: 50%;
+    position: absolute;
+    top: 0.12rem;
+    left: 0.14rem;
+}
+.background .main .kindBox2 .hongdi2 i{
+    color: #fff;
+    position: absolute;
+    left: 0.15rem;
+    top: 0.13rem;
+}
+.background .main .kindBox2 p{
+    color: #B6B6B6;
+    position: absolute;
+    left: 1rem;
+    top: 0.3rem;
+    font-size: 0.24rem;
+}
+.background .main .kindBox3{
+    width: 7.02rem;
+    height: 0.88rem;
+    background: #fff;
+    border-radius: 0.1rem;
+    position: relative;
+    top: 1.4rem;
+    left: 0.24rem;
+}
+.background .main .kindBox3 .num{
+    width: 0.67rem;
+    height: 0.34rem;
+    background: #f84f81;
+    border-radius: 0.2rem;
+    position: absolute;
+    left: 6rem;
+    top: 0.3rem;
+    color: #fff;
+    text-align: center;
+}
+.background .main .kindBox3 .hongdi3{
+    width: 0.66rem;
+    height: 0.66rem;
+    background: #FC7DA3;
+    border-radius: 50%;
+    position: absolute;
+    top: 0.12rem;
+    left: 0.14rem;
+}
+.background .main .kindBox3 .hongdi3 i{
+    color: #fff;
+    position: absolute;
+    left: 0.15rem;
+    top: 0.13rem;
+}
+.background .main .kindBox3 p{
+    color: #B6B6B6;
+    position: absolute;
+    left: 1rem;
+    top: 0.3rem;
+    font-size: 0.24rem;
+}
+.background .main .kindBox4{
+    width: 7.02rem;
+    height: 0.88rem;
+    background: #fff;
+    border-radius: 0.1rem;
+    position: relative;
+    top: 1.7rem;
+    left: 0.24rem;
+}
+.background .main .kindBox4 .num{
+    width: 0.67rem;
+    height: 0.34rem;
+    background: #f84f81;
+    border-radius: 0.2rem;
+    position: absolute;
+    left: 6rem;
+    top: 0.3rem;
+    color: #fff;
+    text-align: center;
+}
+.background .main .kindBox4 .hongdi4{
+    width: 0.66rem;
+    height: 0.66rem;
+    background: #FC7DA3;
+    border-radius: 50%;
+    position: absolute;
+    top: 0.12rem;
+    left: 0.14rem;
+}
+.background .main .kindBox4 .hongdi4 i{
+    color: #fff;
+    position: absolute;
+    left: 0.15rem;
+    top: 0.13rem;
+}
+.background .main .kindBox4 p{
+    color: #B6B6B6;
+    position: absolute;
+    left: 1rem;
+    top: 0.3rem;
+    font-size: 0.24rem;
+}
+.background .footer{
+    height: 1.1rem;
+
+}
+.background .footer .bottom{
+    height: 1rem;
+    /*margin-top: 0.2rem;*/
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.35rem;
+    background: #fff;
+}
+.background .footer .bottom li{
+    /*width: 0.8rem;*/
+    height: 0.48rem;
+    text-align: center;
+    margin-top: 0.2rem;
+    font-size: 0.37rem;
+}
+.background .footer .bottom li .geren{
+    color: #f976c1;
+}
+.background .footer .bottom li .shou{
+    color: #030303;
+}
+.background .footer .bottom p{
+    font-size: 0.2rem;
+    text-align: center;
+}
+.background .footer .bottom i{
+    font-size: 0.4rem;
+}
+.background .footer .bottom li:nth-child(4){
+    color: #f976c1;
+}
+.background .footer #center{
+    color: #f976c1;
+}
