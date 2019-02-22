@@ -29,8 +29,9 @@ i{
 }
 .background .header .top i{
     color: #fff;
-    margin-top: 0.1rem;
+    font-size: 0.35rem;
 }
+
 .background .header .top p{
     color: #fff;
     font-size: 0.38rem;
